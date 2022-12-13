@@ -23,7 +23,10 @@ namespace ProjektSO
         public MainWindow()
         {
             InitializeComponent();
-            //jhgdkhjd
+            
+            
         }
+
+        
     }
 }
