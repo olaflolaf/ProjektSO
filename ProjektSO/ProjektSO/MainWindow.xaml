@@ -10,7 +10,7 @@
         <ImageBrush ImageSource="Resources/mapa_v4_hard.png"/>
     </Window.Background>
     <Canvas Name="MainCanvas">
-        <Rectangle Width="40" Height="20" Fill="Red" Canvas.Top="140">
+        <!--<Rectangle Width="40" Height="20" Fill="Red" Canvas.Top="140">
             <Rectangle.Triggers>
                 <EventTrigger RoutedEvent="Rectangle.MouseDown">
                     <BeginStoryboard>
@@ -23,6 +23,6 @@
                     </BeginStoryboard>
                 </EventTrigger>
             </Rectangle.Triggers>
-        </Rectangle>
+        </Rectangle>-->
     </Canvas>
 </Window>
