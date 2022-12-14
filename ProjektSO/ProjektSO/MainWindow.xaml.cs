@@ -26,49 +26,42 @@ namespace ProjektSO
         {
             InitializeComponent();
 
+            //Rectangle autko1 = new Rectangle();
+            //autko1.Width = 40;
+            //autko1.Height = 20;
+            //autko1.Fill = Brushes.Blue;
+
             //Thread car1 = new Thread(Car1);
-            //car1.Start();
-
-            //    Rectangle autko1 = new Rectangle();
-            //    autko1.Width = 40;
-            //    autko1.Height = 20;
-            //    autko1.Fill = Brushes.Blue;
-
-            //    MainCanvas.Children.Add(autko1);
-            //    Canvas.SetTop(autko1, 140);
-
-            //    RectAnimation animation1 = new RectAnimation();
-
-            //    Storyboard sb1 = new Storyboard();
+            //car1.Start(autko1);
 
 
 
-            //    sb1.Children.Add(animation1);
-            //}
-
-            //public class RectAnimation : AnimationTimeline
-            //{
-            //    public override Type TargetPropertyType => throw new NotImplementedException();
-
-            //    protected override Freezable CreateInstanceCore()
-            //    {
-            //        throw new NotImplementedException();
-            //    }
-            //}
-
-            //void Car1()
-            //{
-            //    Rectangle autko1 = new Rectangle();
-            //    autko1.Width = 40;
-            //    autko1.Height = 20;
-            //    autko1.Fill = Brushes.Red;
-
-            //    MainCanvas.Children.Add(autko1);
-            //    Canvas.SetTop(autko1, 140);
-            //}
-
+            //MainCanvas.Children.Add(autko1);
+            //Canvas.SetTop(autko1, 140);
 
         }
 
+
+
+        //public void Car1(Rectangle autko1)
+        //{
+        //    //Rectangle autko1 = new Rectangle();
+        //    //autko1.Width = 40;
+        //    //autko1.Height = 20;
+        //    //autko1.Fill = Brushes.Red;
+
+        //    MainCanvas.Children.Add(autko1);
+        //    Canvas.SetTop(autko1, 140);
+
+        //    for(int i =0; i<480;i++)
+        //    {
+        //        Canvas.SetLeft(autko1, i);
+        //        Thread.Sleep(100);
+        //    }
+        //}
+
+
     }
-}
+
+}    
+
