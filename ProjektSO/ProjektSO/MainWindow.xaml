@@ -9,20 +9,5 @@
     <Window.Background>
         <ImageBrush ImageSource="Resources/mapa_v4_hard.png"/>
     </Window.Background>
-    <Canvas Name="MainCanvas">
-        <Rectangle Width="40" Height="20" Fill="Red" Canvas.Top="140">
-            <Rectangle.Triggers>
-                <EventTrigger RoutedEvent="Rectangle.MouseDown">
-                    <BeginStoryboard>
-                        <Storyboard>
-                            <DoubleAnimation
-                                Storyboard.TargetProperty="(Canvas.Left)"
-                                From="0" To="480" Duration="0:0:0:2"
-                                AutoReverse="True"/>
-                        </Storyboard>
-                    </BeginStoryboard>
-                </EventTrigger>
-            </Rectangle.Triggers>
-        </Rectangle>
-    </Canvas>
+    <Canvas Name="MainCanvas"/>
 </Window>
