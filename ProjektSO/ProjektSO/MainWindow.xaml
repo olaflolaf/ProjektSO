@@ -9,5 +9,8 @@
     <Window.Background>
         <ImageBrush ImageSource="Resources/mapa_v4_hard.png"/>
     </Window.Background>
-    <Canvas Name="MainCanvas"/>
+    <Canvas Name="MainCanvas">
+        <Rectangle Width="15" Height="15" Fill="green" Canvas.Top="380" Canvas.Left="160"/>
+    </Canvas>
+
 </Window>
